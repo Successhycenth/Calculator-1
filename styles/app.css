@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* header */
+header{
+    display: flex;
+    flex: 1;
+    background-color: rgb(8, 8, 124);
+    height: 15vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+/* end of header */
+
+/* calculator */
+#calculator{
+    border: 1px solid rgb(156, 152, 152);
+    border-radius: 5px;
+    max-width: 100vh;
+    height: 30vh;
+    margin: 5vh auto;
+}
+
+#input-number{
+    padding: 16px 5px;
+    margin: 20px auto;
+    display: flex;
+    border: 1px solid darkgray;
+}
+
+#calc-actions{
+    margin: auto;
+    width: 40vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+/* #btn-subtract, #btn-multiply, #btn-divide */
+#btn-add{
+    background-color: rgb(16, 3, 102);
+    color: white;
+    padding: 10px 10px;
+    flex: 1;
+}
+
+#btn-subtract{
+    background-color: rgb(16, 3, 102);
+    color: white;
+    padding: 10px 10px;
+    flex: 1;
+}
+
+#btn-multiply{
+    background-color: rgb(16, 3, 102);
+    color: white;
+    padding: 10px 10px;
+    flex: 1;
+}
+
+#btn-divide{
+    background-color: rgb(16, 3, 102);
+    color: white;
+    padding: 10px 10px;
+    flex: 1;
+}
+/* end of calculator */
+
+/* result */
+#result{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(156, 152, 152);
+    border-radius: 5px;
+    max-width: 100vh;
+    height: 20vh;
+    margin: 5vh auto;
+}
+
+#current-calculation{
+    margin: 10px;
+}
+
+#current-result{
+    margin: 10px 0px;
+}
+
+/* end of calculator */
